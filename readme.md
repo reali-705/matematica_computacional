@@ -35,7 +35,7 @@ Para visualizar e executar os notebooks localmente, siga os passos:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/reali-705/matematica_computacional.git](https://github.com/reali-705/matematica_computacional.git)
+    git clone https://github.com/reali-705/matematica_computacional.git
     ```
 
 2.  **Navegue até a pasta do projeto:**
