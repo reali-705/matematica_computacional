@@ -10,14 +10,14 @@ Este repositório contém os trabalhos e atividades práticas desenvolvidos para
 
 ## 📑 Sumário
 
-- [🎯 Objetivo](#objetivo)
-- [📂 Atividades Desenvolvidas](#atividades-desenvolvidas)
-- [🛠️ Ferramentas e Tecnologias](#ferramentas-e-tecnologias)
-- [🚀 Como Executar](#como-executar)
-- [📋 Estrutura do Repositório](#estrutura-do-repositório)
-- [💡 Exemplos de Uso](#exemplos-de-uso)
-- [📊 O Que Você Aprenderá](#o-que-você-aprenderá)
-- [📝 Notas Importantes](#notas-importantes)
+- [🎯 Objetivo](#-objetivo)
+- [📂 Atividades Desenvolvidas](#-atividades-desenvolvidas)
+- [🛠️ Ferramentas e Tecnologias](#-ferramentas-e-tecnologias)
+- [🚀 Como Executar](#-como-executar)
+- [📋 Estrutura do Repositório](#-estrutura-do-repositório)
+- [💡 Exemplos de Uso](#-exemplos-de-uso)
+- [📊 O Que Você Aprenderá](#-o-que-você-aprenderá)
+- [📝 Notas Importantes](#-notas-importantes)
 
 ## 🎯 Objetivo [↑](#-sumário)
 
