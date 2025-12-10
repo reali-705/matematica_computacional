@@ -1,6 +1,6 @@
 # 📚 Matemática Computacional
 
-Este repositório contém os trabalhos e atividades práticas desenvolvidos para a disciplina de Matemática Computacional.
+Este repositório contém os trabalhos e atividades práticas desenvolvidos para a disciplina de Matemática Computacional, com foco em **algoritmos de otimização**, **álgebra linear**, **cálculo** e **redes neurais**.
 
 **Instituição:** Universidade Federal do Pará (UFPA).  
 **Curso:** Bacharelado em Ciência da Computação.  
@@ -8,53 +8,171 @@ Este repositório contém os trabalhos e atividades práticas desenvolvidos para
 **Professor(a):** Claudomiro da Souza Sales Junior.  
 **Aluno:** Alessandro Reali Lopes Silva.
 
-## 🎯 Objetivo
+## 📑 Sumário
 
-O objetivo principal é aplicar conceitos teóricos de **álgebra linear**, **cálculo** e **estatística** em contextos computacionais, com foco especial em suas aplicações em **ciência de dados** e ***machine learning***.
+- [🎯 Objetivo](#objetivo)
+- [📂 Atividades Desenvolvidas](#atividades-desenvolvidas)
+- [🛠️ Ferramentas e Tecnologias](#ferramentas-e-tecnologias)
+- [🚀 Como Executar](#como-executar)
+- [📋 Estrutura do Repositório](#estrutura-do-repositório)
+- [💡 Exemplos de Uso](#exemplos-de-uso)
+- [📊 O Que Você Aprenderá](#o-que-você-aprenderá)
+- [📝 Notas Importantes](#notas-importantes)
 
-## 📂 Atividades Desenvolvidas
+## 🎯 Objetivo [↑](#-sumário)
+
+O objetivo principal é aplicar conceitos teóricos em contextos computacionais práticos, com foco especial em:
+
+- ✅ **Algoritmos de Otimização:** Gradiente Descendente, SGD e Mini-Batch
+- ✅ **Redes Neurais:** Implementação de arquiteturas simples com Backpropagation
+- ✅ **Análise de Hiperparâmetros:** Comparação de taxas de aprendizado e métricas de convergência
+- ✅ **Visualização de Dados:** Exploração dinâmica de convergência e evolução de parâmetros
+- ✅ **Ciência de Dados e Machine Learning:** Aplicação prática de conceitos matemáticos
+
+## 📂 Atividades Desenvolvidas [↑](#-sumário)
 
 Os projetos estão organizados em pastas nomeadas de acordo com a atividade correspondente:
 
-- **[atividade0](./atividade0/transformacao_linear.ipynb)**: Demonstração de transformações lineares (Rotação e Cisalhamento) utilizando Jupyter, Git e Matplotlib.
-- **[atividade1](./atividade1/)**: *(A ser adicionado)*
-- **[atividade2](./atividade2/)**: *(A ser adicionado)*
+- **[Atividade 0](./atividades/atividade0.ipynb)**: Transformações Lineares
+  - Demonstração de transformações lineares (Rotação e Cisalhamento)
+  - Utilização de Jupyter, Git e Matplotlib
 
-## 🛠️ Ferramentas e Tecnologias
+- **[Atividade 1](./atividades/atividade1.ipynb)**: **Composição Matricial e Determinantes**
+  - Composição de transformações: Rotação horária de 90° + Cisalhamento em x
+  - Determinantes e análise de conservação de área através de transformações
+  - Matriz composta: equivalência entre aplicação sequencial e produto matricial
+  - Não-comutatividade: $A \cdot B \neq B \cdot A$
+  - Produto escalar e ortogonalidade de vetores
+  
+- **[Atividade 2](./atividades/atividade2.ipynb)**: **Gradiente Descendente e Redes Neurais**
+  - Gradiente Descendente com um e dois parâmetros
+  - Variantes: BGD, SGD e Mini-Batch
+  - Redes Neurais com Backpropagation e rastreamento de evolução de parâmetros
+
+## 🛠️ Ferramentas e Tecnologias [↑](#-sumário)
 
 As principais ferramentas e bibliotecas utilizadas neste projeto são:
 
-- **Linguagem:** Python
+- **Linguagem:** Python 3.8+
 - **Ambiente:** Jupyter Notebook
-- **Visualização:** Matplotlib
+- **Bibliotecas Principais:**
+  - `numpy`: Computação numérica e álgebra linear
+  - `matplotlib`: Visualização de dados e gráficos
+  - `pandas`: Manipulação e análise de dados (quando necessário)
 - **Controle de Versão:** Git
 
-## 🚀 Como Executar
+## 🚀 Como Executar [↑](#-sumário)
 
-Para visualizar e executar os notebooks localmente, siga os passos:
+### Pré-requisitos
 
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/reali-705/matematica_computacional.git
-    ```
+- Python 3.8 ou superior instalado
+- pip (gerenciador de pacotes Python)
+- Git instalado
 
-2.  **Navegue até a pasta do projeto:**
-    ```bash
-    cd matematica_computacional
-    ```
+### Passo a Passo
 
-3.  **Crie um ambiente virtual:**
-    * Isso isolará as dependências do projeto.
-    ```bash
-    python -m venv venv
-    ```
+1. **Clone o repositório:**
 
-4.  **Ative o ambiente virtual:**
-    * **No Windows (PowerShell/CMD):**
-        ```bash
-        .\venv\Scripts\activate
-        ```
-    * **No Linux/macOS:**
-        ```bash
-        source venv/bin/activate
-        ```
+```bash
+git clone https://github.com/reali-705/matematica_computacional.git
+cd matematica_computacional
+```
+
+2. **Crie um ambiente virtual:**
+
+Isso isolará as dependências do projeto e evitará conflitos com outras instalações.
+
+```bash
+python -m venv venv
+```
+
+3. **Ative o ambiente virtual:**
+
+**No Windows (PowerShell):**
+
+```bash
+.\venv\Scripts\Activate.ps1
+```
+
+**No Windows (CMD):**
+
+```bash
+.\venv\Scripts\activate.bat
+```
+
+**No Linux/macOS:**
+
+```bash
+source venv/bin/activate
+```
+
+4. **Instale as dependências:**
+
+```bash
+pip install -r requirements.txt
+```
+
+Isso instalará automaticamente todas as bibliotecas necessárias (NumPy, Matplotlib, Jupyter, etc.).
+
+5. **Inicie o Jupyter Notebook:**
+
+```bash
+jupyter notebook
+```
+
+O navegador abrirá automaticamente com a interface do Jupyter. Navegue até a pasta `atividades/` e abra o notebook desejado (ex: `atividade2.ipynb`).
+
+## 📋 Estrutura do Repositório [↑](#-sumário)
+
+```txt
+matematica_computacional/
+├── readme.md                 # Este arquivo
+├── requirements.txt          # Dependências do projeto
+├── atividades/              # Pasta com todas as atividades
+│   ├── atividade0.ipynb     # Transformações Lineares
+│   ├── atividade1.ipynb     # (Em desenvolvimento)
+│   ├── atividade2.ipynb     # Gradiente Descendente e Redes Neurais
+│   └── utils.py             # Funções utilitárias compartilhadas
+└── .gitignore               # Arquivos ignorados pelo Git
+```
+
+## 💡 Exemplos de Uso [↑](#-sumário)
+
+### Executar Atividade 2 (Recomendado para Iniciantes)
+
+1. Com Jupyter aberto, acesse: `atividades/atividade2.ipynb`
+2. Leia as instruções em cada seção
+3. Execute as células sequencialmente (Shift + Enter)
+4. Observe os gráficos e tabelas de resultados
+
+### Modificar Parâmetros
+
+Cada atividade possui uma seção "VARIÁVEIS CONFIGURÁVEIS" no início. Você pode modificar:
+
+- **Taxa de aprendizado:** Controla a velocidade de convergência
+- **Número máximo de iterações:** Limite de passos do algoritmo
+- **Critério de parada (precisão):** Quando parar de otimizar
+
+Exemplo (Atividade 2, Parte A):
+
+```python
+TAXAS_APRENDIZADO_TESTE = [0.01, 0.1]  # Testar duas taxas diferentes
+INTERCEPTO_INICIAL_TESTE = 0.0
+MAX_ITERACOES_TESTE = 1000
+PRECISAO_TESTE = 0.0001
+```
+
+## 📊 O Que Você Aprenderá [↑](#-sumário)
+
+Através das atividades práticas, você aprenderá:
+
+- **Gradiente Descendente:** Funcionamento do algoritmo, impacto da taxa de aprendizado, convergência
+- **Variantes do GD:** Batch, SGD e Mini-Batch com visualizações comparativas
+- **Redes Neurais:** Arquitetura, Forward Pass, Backpropagation e evolução de parâmetros
+
+## 📝 Notas Importantes [↑](#-sumário)
+
+- Todos os notebooks usam dados de exemplo pequenos para fins educacionais
+- As visualizações usam limites dinâmicos para melhor clareza
+- Os logs de treinamento mostram as primeiras/últimas iterações (com reticências no meio)
+- O código é totalmente documentado com docstrings e comentários
