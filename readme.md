@@ -16,10 +16,9 @@ Este repositório contém os trabalhos e atividades práticas desenvolvidos para
 - [🚀 Como Executar](#-como-executar)
 - [📋 Estrutura do Repositório](#-estrutura-do-repositório)
 - [💡 Exemplos de Uso](#-exemplos-de-uso)
-- [📊 O Que Você Aprenderá](#-o-que-você-aprenderá)
 - [📝 Notas Importantes](#-notas-importantes)
 
-## 🎯 Objetivo [↑](#-sumário)
+## 🎯 Objetivo
 
 O objetivo principal é aplicar conceitos teóricos em contextos computacionais práticos, com foco especial em:
 
@@ -29,7 +28,7 @@ O objetivo principal é aplicar conceitos teóricos em contextos computacionais 
 - ✅ **Visualização de Dados:** Exploração dinâmica de convergência e evolução de parâmetros
 - ✅ **Ciência de Dados e Machine Learning:** Aplicação prática de conceitos matemáticos
 
-## 📂 Atividades Desenvolvidas [↑](#-sumário)
+## 📂 Atividades Desenvolvidas
 
 Os projetos estão organizados em pastas nomeadas de acordo com a atividade correspondente:
 
@@ -49,7 +48,12 @@ Os projetos estão organizados em pastas nomeadas de acordo com a atividade corr
   - Variantes: BGD, SGD e Mini-Batch
   - Redes Neurais com Backpropagation e rastreamento de evolução de parâmetros
 
-## 🛠️ Ferramentas e Tecnologias [↑](#-sumário)
+- **[Avaliação Alternativa](./atividades/avaliacao_alternativa.ipynb)**: **Métodos Numéricos e Conversões**
+  - **Questão 1 — Método da Bisseção:** Varredura de intervalos, detecção de raízes via mudança de sinal, verificação do comportamento da derivada
+  - **Questão 2 — Conversão Binária Fracionária:** Conversão didática de sequência binária → binário fracionário (0.xxxx) → decimal
+  - **Questão 3 — Conversão Binária Completa:** Conversão de números binários com parte inteira e fracionária para decimal com somatório das parcelas
+
+## 🛠️ Ferramentas e Tecnologias
 
 As principais ferramentas e bibliotecas utilizadas neste projeto são:
 
@@ -61,7 +65,7 @@ As principais ferramentas e bibliotecas utilizadas neste projeto são:
   - `pandas`: Manipulação e análise de dados (quando necessário)
 - **Controle de Versão:** Git
 
-## 🚀 Como Executar [↑](#-sumário)
+## 🚀 Como Executar
 
 ### Pré-requisitos
 
@@ -71,72 +75,69 @@ As principais ferramentas e bibliotecas utilizadas neste projeto são:
 
 ### Passo a Passo
 
-1. **Clone o repositório:**
+**1. Clone o repositório:**
 
-```bash
-git clone https://github.com/reali-705/matematica_computacional.git
-cd matematica_computacional
-```
+  ```bash
+  git clone https://github.com/reali-705/matematica_computacional.git
+  cd matematica_computacional
+  ```
 
-2. **Crie um ambiente virtual:**
+**2. Crie um ambiente virtual:**
 
-Isso isolará as dependências do projeto e evitará conflitos com outras instalações.
+  Isso isolará as dependências do projeto e evitará conflitos com outras instalações.
 
-```bash
-python -m venv venv
-```
+  ```bash
+  python -m venv venv
+  ```
 
-3. **Ative o ambiente virtual:**
+**3. Ative o ambiente virtual:**
 
-**No Windows (PowerShell):**
+  **No Windows (PowerShell):**
 
-```bash
-.\venv\Scripts\Activate.ps1
-```
+  ```bash
+  .\venv\Scripts\Activate.ps1
+  ```
 
-**No Windows (CMD):**
+  **No Windows (CMD):**
 
-```bash
-.\venv\Scripts\activate.bat
-```
+  ```bash
+  .\venv\Scripts\activate.bat
+  ```
 
-**No Linux/macOS:**
+  **No Linux/macOS:**
 
-```bash
-source venv/bin/activate
-```
+  ```bash
+  source venv/bin/activate
+  ```
 
-4. **Instale as dependências:**
+**4. Instale as dependências:**
 
-```bash
-pip install -r requirements.txt
-```
+  ```bash
+  pip install -r requirements.txt
+  ```
 
-Isso instalará automaticamente todas as bibliotecas necessárias (NumPy, Matplotlib, Jupyter, etc.).
+  Isso instalará automaticamente todas as bibliotecas necessárias (NumPy, Matplotlib, Jupyter, etc.).
 
-5. **Inicie o Jupyter Notebook:**
+**5. Inicie o Jupyter Notebook:**
 
-```bash
-jupyter notebook
-```
+  O navegador abrirá automaticamente com a interface do Jupyter. Navegue até a pasta `atividades/` e abra o notebook desejado (ex: `atividade2.ipynb`).
 
-O navegador abrirá automaticamente com a interface do Jupyter. Navegue até a pasta `atividades/` e abra o notebook desejado (ex: `atividade2.ipynb`).
-
-## 📋 Estrutura do Repositório [↑](#-sumário)
+## 📋 Estrutura do Repositório
 
 ```txt
 matematica_computacional/
-├── readme.md                 # Este arquivo
-├── requirements.txt          # Dependências do projeto
-├── atividades/              # Pasta com todas as atividades
-│   ├── atividade0.ipynb     # Transformações Lineares
-│   ├── atividade1.ipynb     # (Em desenvolvimento)
-│   ├── atividade2.ipynb     # Gradiente Descendente e Redes Neurais
-│   └── utils.py             # Funções utilitárias compartilhadas
-└── .gitignore               # Arquivos ignorados pelo Git
+├── readme.md                        # Este arquivo
+├── requirements.txt                 # Dependências do projeto
+├── atividades/                      # Pasta com todas as atividades
+│   ├── atividade0.ipynb             # Transformações Lineares
+│   ├── atividade1.ipynb             # Composição Matricial e Determinantes
+│   ├── atividade2.ipynb             # Gradiente Descendente e Redes Neurais
+│   ├── avaliacao_alternativa.ipynb  # Métodos Numéricos e Conversões
+│   └── utils.py                     # Funções utilitárias compartilhadas
+└── .gitignore                       # Arquivos ignorados pelo Git
 ```
 
-## 💡 Exemplos de Uso [↑](#-sumário)
+## 💡 Exemplos de Uso
 
 ### Executar Atividade 2 (Recomendado para Iniciantes)
 
@@ -162,15 +163,7 @@ MAX_ITERACOES_TESTE = 1000
 PRECISAO_TESTE = 0.0001
 ```
 
-## 📊 O Que Você Aprenderá [↑](#-sumário)
-
-Através das atividades práticas, você aprenderá:
-
-- **Gradiente Descendente:** Funcionamento do algoritmo, impacto da taxa de aprendizado, convergência
-- **Variantes do GD:** Batch, SGD e Mini-Batch com visualizações comparativas
-- **Redes Neurais:** Arquitetura, Forward Pass, Backpropagation e evolução de parâmetros
-
-## 📝 Notas Importantes [↑](#-sumário)
+## 📝 Notas Importantes
 
 - Todos os notebooks usam dados de exemplo pequenos para fins educacionais
 - As visualizações usam limites dinâmicos para melhor clareza
